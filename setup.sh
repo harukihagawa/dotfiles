@@ -25,6 +25,7 @@ brew install mas
 # インタラクティブなjq的なやつ
 brew tap simeji/jid
 brew install jid
+brew install bat
 
 # homebrewでインストールしたアプリのシンボリックリンクを生成
 brew linkapps
