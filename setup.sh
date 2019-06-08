@@ -26,6 +26,9 @@ brew install the_silver_searcher
 brew tap simeji/jid
 brew install jid
 brew install bat
+# PlantUMLのPreviewに必要
+brew install graphviz
+brew install plantuml
 
 # 設定ファイル
 cp .vimrc ~/.vimrc
