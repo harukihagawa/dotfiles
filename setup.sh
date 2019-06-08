@@ -27,23 +27,9 @@ brew tap simeji/jid
 brew install jid
 brew install bat
 
-# homebrewでインストールしたアプリのシンボリックリンクを生成
-brew linkapps
-
-# zshをログインシェルにする
-echo /usr/local/bin/zsh >> /etc/shells
-chsh -s /usr/local/bin/zsh
-
-# wip
-
-# Symbolic Link
-# シンボリックリンクだとうまくいかなくてcpで置いた
-#ln -s .vimrc ~/.vimrc
-#ln -s .zshrc ~/.zshrc
+# 設定ファイル
+cp .vimrc ~/.vimrc
+cp .zshrc ~/.zshrc
 
 # masでAppStoreのアプリをインストールする
 # sh setup_mas.sh
-
-# atom package
-## theme変更は手動で設定
-apm install --packages-file atomfile
