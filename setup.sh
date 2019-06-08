@@ -21,7 +21,7 @@ brew install tree
 brew install curl
 brew install the_silver_searcher
 # Mac App Storeのアプリをインストールとかするやつ
-brew install mas
+# brew install mas
 # インタラクティブなjq的なやつ
 brew tap simeji/jid
 brew install jid
@@ -42,7 +42,7 @@ chsh -s /usr/local/bin/zsh
 #ln -s .zshrc ~/.zshrc
 
 # masでAppStoreのアプリをインストールする
-sh setup_mas.sh
+# sh setup_mas.sh
 
 # atom package
 ## theme変更は手動で設定
