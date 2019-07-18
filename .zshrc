@@ -1,5 +1,8 @@
 # PATH
 
+# Android
+# export PATH=$PATH:/Users/{user_name}/Library/Android/sdk/platform-tools
+
 # node.js
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
