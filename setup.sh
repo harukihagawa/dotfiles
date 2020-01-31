@@ -29,6 +29,8 @@ brew install bat
 # PlantUMLのPreviewに必要
 brew install graphviz
 brew install plantuml
+# gitignore生成 https://github.com/simonwhitaker/gibo
+brew install gibo
 
 # 設定ファイル
 cp .vimrc ~/.vimrc
