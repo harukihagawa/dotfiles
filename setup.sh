@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # Install Homebrew
-if ! type "brew" > /dev/null; then
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Install App from Homebrew
 
