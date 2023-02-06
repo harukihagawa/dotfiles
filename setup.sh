@@ -29,6 +29,10 @@ brew install graphviz
 brew install plantuml
 # gitignore生成 https://github.com/simonwhitaker/gibo
 brew install gibo
+# 静的サイトジェネレータ
+# brew install hugo
+# 動画変換(github用にmp4をgifにしていた)
+# brew install ffmpeg
 
 # 設定ファイル
 cp .vimrc ~/.vimrc
